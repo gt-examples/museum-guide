@@ -1,0 +1,538 @@
+{
+  "06cdcc90c5eae338": "Meridian Museum",
+  "10ed8e70dec66d99": "Una guía multilingüe para visitantes de museos que demuestra la internacionalización con General Translation. Recorre las exposiciones, explora la colección y descubre obras de arte de todo el mundo.",
+  "2142f13ed2b98e51": "Colección",
+  "222cde10939a757f": [
+    {
+      "c": "Obras en Esta Exposición",
+      "i": 1,
+      "t": "h2"
+    },
+    {
+      "c": {
+        "d": {
+          "b": {
+            "many": {
+              "c": [
+                {
+                  "i": 5,
+                  "k": "_gt_n_5",
+                  "v": "n"
+                },
+                " obras de arte en exposición"
+              ],
+              "i": 4,
+              "t": "C4"
+            },
+            "other": {
+              "c": [
+                {
+                  "i": 5,
+                  "k": "_gt_n_5",
+                  "v": "n"
+                },
+                " obras de arte en exposición"
+              ],
+              "i": 4,
+              "t": "C4"
+            },
+            "plural": {
+              "c": [
+                {
+                  "i": 5,
+                  "k": "_gt_n_5",
+                  "v": "n"
+                },
+                " obras de arte en exposición"
+              ],
+              "i": 4,
+              "t": "C4"
+            },
+            "singular": {
+              "c": [
+                {
+                  "i": 5,
+                  "k": "_gt_n_5",
+                  "v": "n"
+                },
+                " obra en exhibición"
+              ],
+              "i": 4,
+              "t": "C4"
+            }
+          },
+          "t": "p"
+        },
+        "i": 3,
+        "t": "Plural"
+      },
+      "i": 2,
+      "t": "p"
+    }
+  ],
+  "2b6ec6f4672d0422": [
+    {
+      "c": "Exposiciones",
+      "i": 1,
+      "t": "h1"
+    },
+    {
+      "c": "Descubre nuestras exposiciones actuales, próximas y pasadas.",
+      "i": 2,
+      "t": "p"
+    }
+  ],
+  "33723cae8500f9a3": {
+    "c": "Trabajos relacionados",
+    "i": 1,
+    "t": "h2"
+  },
+  "35d12c43430aa3b9": "Exposiciones",
+  "3c3f0b6a466cc573": "Ver detalles de la obra",
+  "3cc3f2f1b3fa1212": [
+    {
+      "c": "Ubicación",
+      "i": 1,
+      "t": "h3"
+    },
+    {
+      "c": "1200 Museum Boulevard",
+      "i": 2,
+      "t": "p"
+    },
+    {
+      "c": "Distrito de las Artes",
+      "i": 3,
+      "t": "p"
+    },
+    {
+      "c": "Accesible en transporte público",
+      "i": 4,
+      "t": "p"
+    }
+  ],
+  "4890fa52395a9af7": {
+    "d": {
+      "b": {
+        "all": {
+          "c": "Todos",
+          "i": 2,
+          "t": "C2"
+        },
+        "current": {
+          "c": "Actual",
+          "i": 2,
+          "t": "C2"
+        },
+        "past": {
+          "c": "Pasado",
+          "i": 2,
+          "t": "C2"
+        },
+        "upcoming": {
+          "c": "Próximos",
+          "i": 2,
+          "t": "C2"
+        }
+      },
+      "t": "b"
+    },
+    "i": 1,
+    "t": "Branch"
+  },
+  "492e6b40f355eed9": [
+    {
+      "c": "Horario",
+      "i": 1,
+      "t": "h3"
+    },
+    {
+      "c": "Martes — Domingo",
+      "i": 2,
+      "t": "p"
+    },
+    {
+      "c": "10:00 AM — 6:00 PM",
+      "i": 3,
+      "t": "p"
+    },
+    {
+      "c": "Cerrado los lunes",
+      "i": 4,
+      "t": "p"
+    }
+  ],
+  "505dde85b849665c": {
+    "d": {
+      "b": {
+        "installation": {
+          "c": "Instalación",
+          "i": 2,
+          "t": "C2"
+        },
+        "painting": {
+          "c": "Pintura",
+          "i": 2,
+          "t": "C2"
+        },
+        "photography": {
+          "c": "Fotografía",
+          "i": 2,
+          "t": "C2"
+        },
+        "sculpture": {
+          "c": "Escultura",
+          "i": 2,
+          "t": "C2"
+        }
+      },
+      "t": "b"
+    },
+    "i": 1,
+    "t": "Branch"
+  },
+  "5469a50990bc6d6f": {
+    "c": "Esta es una aplicación de ejemplo creada con General Translation para demostrar la internacionalización. No es un museo real ni una guía de visitantes.",
+    "i": 1,
+    "t": "div"
+  },
+  "63a3660623189540": [
+    {
+      "c": "Admisión",
+      "i": 1,
+      "t": "h3"
+    },
+    {
+      "c": "Adultos: $18",
+      "i": 2,
+      "t": "p"
+    },
+    {
+      "c": "Estudiantes y personas mayores: $12",
+      "i": 3,
+      "t": "p"
+    },
+    {
+      "c": "Miembros: Gratis",
+      "i": 4,
+      "t": "p"
+    },
+    {
+      "c": "Entrada gratuita cada primer viernes",
+      "i": 5,
+      "t": "p"
+    }
+  ],
+  "6f0e82225465c593": {
+    "c": "Artista",
+    "i": 1,
+    "t": "p"
+  },
+  "70e09c632e784631": [
+    {
+      "c": "Colección",
+      "i": 1,
+      "t": "h1"
+    },
+    {
+      "c": "Busca y explora nuestro catálogo completo de obras de arte.",
+      "i": 2,
+      "t": "p"
+    }
+  ],
+  "7f390b3e781bdc3c": [
+    {
+      "c": "Obra de arte no encontrada",
+      "i": 1,
+      "t": "h1"
+    },
+    {
+      "c": "La obra de arte solicitada no se pudo encontrar en nuestra colección.",
+      "i": 2,
+      "t": "p"
+    }
+  ],
+  "7fb69e68bc351fee": "Clic para ampliar",
+  "8195318028c7bb81": "Explorar colección",
+  "84bac7ff6027feb3": "Volver a la colección",
+  "94624a691835c84e": [
+    {
+      "c": "Meridian Museum of Contemporary Art",
+      "i": 1,
+      "t": "p"
+    },
+    {
+      "c": "Descubre. Reflexiona. Conecta.",
+      "i": 2,
+      "t": "h1"
+    },
+    {
+      "c": "Explora nuestra colección de arte contemporáneo de clase mundial que abarca pintura, escultura, fotografía e instalación.",
+      "i": 3,
+      "t": "p"
+    }
+  ],
+  "97d0bcd613b42aa8": "Guía del museo | General Translation",
+  "a7c300ce04e2a9e1": [
+    {
+      "c": "Audio Tour",
+      "i": 1,
+      "t": "h3"
+    },
+    {
+      "c": "Para esta exposición hay disponible una audioguía que ofrece una visión más profunda de cada obra y de la visión curatorial detrás de la muestra.",
+      "i": 2,
+      "t": "p"
+    },
+    {
+      "c": [
+        "Duración: ",
+        {
+          "i": 4,
+          "k": "_gt_n_4",
+          "v": "n"
+        },
+        " minutos"
+      ],
+      "i": 3,
+      "t": "p"
+    }
+  ],
+  "a9af4180f41d28fe": "Ninguna obra de arte coincide con tus criterios de búsqueda. Intenta ajustar los filtros.",
+  "aa871ef0f3205730": {
+    "c": [
+      {
+        "c": "Traducción General",
+        "i": 2,
+        "t": "a"
+      },
+      {
+        "c": "The Met",
+        "i": 3,
+        "t": "a"
+      },
+      {
+        "c": "Louvre",
+        "i": 4,
+        "t": "a"
+      },
+      {
+        "c": "Tate",
+        "i": 5,
+        "t": "a"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "adb1651d1370f6ac": {
+    "c": "Período",
+    "i": 1,
+    "t": "p"
+  },
+  "af507068e0469e4e": {
+    "c": "Medio",
+    "i": 1,
+    "t": "p"
+  },
+  "b5a603760ade8612": {
+    "d": {
+      "b": {
+        "many": {
+          "c": [
+            {
+              "i": 3,
+              "k": "_gt_n_3",
+              "v": "n"
+            },
+            " obras de arte encontradas"
+          ],
+          "i": 2,
+          "t": "C2"
+        },
+        "other": {
+          "c": [
+            {
+              "i": 3,
+              "k": "_gt_n_3",
+              "v": "n"
+            },
+            " obras de arte encontradas"
+          ],
+          "i": 2,
+          "t": "C2"
+        },
+        "plural": {
+          "c": [
+            {
+              "i": 3,
+              "k": "_gt_n_3",
+              "v": "n"
+            },
+            " obras de arte encontradas"
+          ],
+          "i": 2,
+          "t": "C2"
+        },
+        "singular": {
+          "c": [
+            {
+              "i": 3,
+              "k": "_gt_n_3",
+              "v": "n"
+            },
+            " obra de arte encontrada"
+          ],
+          "i": 2,
+          "t": "C2"
+        }
+      },
+      "t": "p"
+    },
+    "i": 1,
+    "t": "Plural"
+  },
+  "b733a133c04973da": {
+    "c": "Desarrollado con General Translation para Next.js",
+    "i": 1,
+    "t": "p"
+  },
+  "b97cd2395f623e77": "Ver exposiciones",
+  "cbb029169e8c19f5": {
+    "c": "Destacado en",
+    "i": 1,
+    "t": "h2"
+  },
+  "d9fa5dab66edc3e5": "Ninguna exposición coincide con el filtro seleccionado.",
+  "e05a0c20999c497e": {
+    "c": "Información de visitantes",
+    "i": 1,
+    "t": "h2"
+  },
+  "e674cfdd26c0807a": "Volver a todas las exposiciones",
+  "e80e5abdeb6513f0": {
+    "d": {
+      "b": {
+        "many": {
+          "c": [
+            {
+              "i": 3,
+              "k": "_gt_n_3",
+              "v": "n"
+            },
+            " exposiciones"
+          ],
+          "i": 2,
+          "t": "C2"
+        },
+        "other": {
+          "c": [
+            {
+              "i": 3,
+              "k": "_gt_n_3",
+              "v": "n"
+            },
+            " exposiciones"
+          ],
+          "i": 2,
+          "t": "C2"
+        },
+        "plural": {
+          "c": [
+            {
+              "i": 3,
+              "k": "_gt_n_3",
+              "v": "n"
+            },
+            " exposiciones"
+          ],
+          "i": 2,
+          "t": "C2"
+        },
+        "singular": {
+          "c": [
+            {
+              "i": 3,
+              "k": "_gt_n_3",
+              "v": "n"
+            },
+            " exposición"
+          ],
+          "i": 2,
+          "t": "C2"
+        }
+      },
+      "t": "p"
+    },
+    "i": 1,
+    "t": "Plural"
+  },
+  "f7a3f3d3f2a8817b": [
+    {
+      "c": "Exposiciones actuales",
+      "i": 1,
+      "t": "h2"
+    },
+    {
+      "c": {
+        "d": {
+          "b": {
+            "many": {
+              "c": [
+                {
+                  "i": 5,
+                  "k": "_gt_n_5",
+                  "v": "n"
+                },
+                " exposiciones actualmente en exhibición"
+              ],
+              "i": 4,
+              "t": "C4"
+            },
+            "other": {
+              "c": [
+                {
+                  "i": 5,
+                  "k": "_gt_n_5",
+                  "v": "n"
+                },
+                " exposiciones actualmente en exhibición"
+              ],
+              "i": 4,
+              "t": "C4"
+            },
+            "plural": {
+              "c": [
+                {
+                  "i": 5,
+                  "k": "_gt_n_5",
+                  "v": "n"
+                },
+                " exposiciones actualmente en exhibición"
+              ],
+              "i": 4,
+              "t": "C4"
+            },
+            "singular": {
+              "c": [
+                {
+                  "i": 5,
+                  "k": "_gt_n_5",
+                  "v": "n"
+                },
+                " exposición actualmente en exhibición"
+              ],
+              "i": 4,
+              "t": "C4"
+            }
+          },
+          "t": "p"
+        },
+        "i": 3,
+        "t": "Plural"
+      },
+      "i": 2,
+      "t": "p"
+    }
+  ]
+}
