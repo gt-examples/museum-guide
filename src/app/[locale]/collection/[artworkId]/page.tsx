@@ -4,6 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { useParams } from "next/navigation";
 import { T, Var, Num, Branch, DateTime } from "gt-next";
+import { useTranslations } from "gt-next/client";
 import { artworks } from "@/data/artworks";
 import { exhibitions } from "@/data/exhibitions";
 
@@ -12,6 +13,7 @@ export default function ArtworkDetailPage() {
   const artworkId = params.artworkId as string;
   const artwork = artworks.find((a) => a.id === artworkId);
   const [zoomed, setZoomed] = useState(false);
+  const d = useTranslations();
 
   if (!artwork) {
     return (
@@ -73,36 +75,36 @@ export default function ArtworkDetailPage() {
               installation={<>Installation</>}
             />
           </p>
-          <h1 className="text-3xl md:text-4xl font-bold text-[#F5F5F5] mb-2"><Var>{artwork.title}</Var></h1>
-          <p className="text-lg text-[#C9B037] mb-1"><Var>{artwork.artist}</Var></p>
-          <p className="text-sm text-[#888] mb-6">
-            <Num>{artwork.year}</Num> — <Num>{artwork.dimensions.width}</Num> x <Num>{artwork.dimensions.height}</Num> <Var>{artwork.dimensions.unit}</Var>
-          </p>
         </T>
+        <h1 className="text-3xl md:text-4xl font-bold text-[#F5F5F5] mb-2">{d(`artworks.${artwork.id}.title`)}</h1>
+        <p className="text-lg text-[#C9B037] mb-1">{artwork.artist}</p>
+        <p className="text-sm text-[#888] mb-6">
+          <Num>{artwork.year}</Num> — <Num>{artwork.dimensions.width}</Num> x <Num>{artwork.dimensions.height}</Num> {artwork.dimensions.unit}
+        </p>
       </div>
 
       {/* Description */}
       <section className="mb-10">
         <T>
           <h2 className="text-lg font-bold text-[#C9B037] mb-3">About This Work</h2>
-          <p className="text-[#BBB] leading-relaxed"><Var>{artwork.description}</Var></p>
         </T>
+        <p className="text-[#BBB] leading-relaxed">{d(`artworks.${artwork.id}.description`)}</p>
       </section>
 
       {/* Historical Context */}
       <section className="mb-10">
         <T>
           <h2 className="text-lg font-bold text-[#C9B037] mb-3">Historical Context</h2>
-          <p className="text-[#BBB] leading-relaxed"><Var>{artwork.historicalContext}</Var></p>
         </T>
+        <p className="text-[#BBB] leading-relaxed">{d(`artworks.${artwork.id}.historicalContext`)}</p>
       </section>
 
       {/* Artist Bio */}
       <section className="bg-[#222] rounded-xl p-6 border border-[#333] mb-10">
         <T>
           <h2 className="text-lg font-bold text-[#F5F5F5] mb-3">About the Artist</h2>
-          <p className="text-[#BBB] leading-relaxed"><Var>{artwork.artistBio}</Var></p>
         </T>
+        <p className="text-[#BBB] leading-relaxed">{d(`artworks.${artwork.id}.artistBio`)}</p>
       </section>
 
       {/* Exhibitions featuring this artwork */}
@@ -118,12 +120,12 @@ export default function ArtworkDetailPage() {
                 href={`/exhibitions/${ex.id}`}
                 className="block bg-[#222] rounded-lg p-4 border border-[#333] hover:border-[#C9B037]/50 transition-colors"
               >
-                <T>
-                  <h3 className="font-semibold text-[#F5F5F5] mb-1"><Var>{ex.title}</Var></h3>
-                  <p className="text-xs text-[#888]">
+                <h3 className="font-semibold text-[#F5F5F5] mb-1">{d(`exhibitions.${ex.id}.title`)}</h3>
+                <p className="text-xs text-[#888]">
+                  <T>
                     <DateTime>{new Date(ex.startDate)}</DateTime> — <DateTime>{new Date(ex.endDate)}</DateTime>
-                  </p>
-                </T>
+                  </T>
+                </p>
               </Link>
             ))}
           </div>
@@ -147,8 +149,8 @@ export default function ArtworkDetailPage() {
                   <div className="absolute inset-0 bg-gradient-to-t from-[#222] to-transparent" />
                 </div>
                 <div className="p-4">
+                  <h3 className="font-semibold text-[#F5F5F5] group-hover:text-[#C9B037] transition-colors mb-1">{d(`artworks.${related.id}.title`)}</h3>
                   <T>
-                    <h3 className="font-semibold text-[#F5F5F5] group-hover:text-[#C9B037] transition-colors mb-1"><Var>{related.title}</Var></h3>
                     <p className="text-sm text-[#999]"><Var>{related.artist}</Var>, <Num>{related.year}</Num></p>
                   </T>
                 </div>

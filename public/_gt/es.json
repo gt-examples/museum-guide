@@ -1,88 +1,16 @@
 {
   "06cdcc90c5eae338": "Meridian Museum",
-  "0a3fabbb81b5eac4": [
-    {
-      "c": {
-        "d": {
-          "b": {
-            "installation": {
-              "c": "Instalación",
-              "i": 3,
-              "t": "C3"
-            },
-            "painting": {
-              "c": "Pintura",
-              "i": 3,
-              "t": "C3"
-            },
-            "photography": {
-              "c": "Fotografía",
-              "i": 3,
-              "t": "C3"
-            },
-            "sculpture": {
-              "c": "Escultura",
-              "i": 3,
-              "t": "C3"
-            }
-          },
-          "t": "b"
-        },
-        "i": 2,
-        "t": "Branch"
-      },
-      "i": 1,
-      "t": "p"
-    },
-    {
-      "c": {
-        "i": 4,
-        "k": "_gt_value_4",
-        "v": "v"
-      },
-      "i": 3,
-      "t": "h1"
-    },
-    {
-      "c": {
-        "i": 6,
-        "k": "_gt_value_6",
-        "v": "v"
-      },
-      "i": 5,
-      "t": "p"
-    },
-    {
-      "c": [
-        {
-          "i": 8,
-          "k": "_gt_n_8",
-          "v": "n"
-        },
-        " — ",
-        {
-          "i": 9,
-          "k": "_gt_n_9",
-          "v": "n"
-        },
-        " x ",
-        {
-          "i": 10,
-          "k": "_gt_n_10",
-          "v": "n"
-        },
-        " ",
-        {
-          "i": 11,
-          "k": "_gt_value_11",
-          "v": "v"
-        }
-      ],
-      "i": 7,
-      "t": "p"
-    }
-  ],
-  "10ed8e70dec66d99": "Una guía multilingüe para visitantes de museos que muestra la internacionalización en acción con General Translation. Recorre las exposiciones, explora la colección y descubre obras de arte de todo el mundo.",
+  "0de602ffe622928b": {
+    "c": "Sobre el artista",
+    "i": 1,
+    "t": "h2"
+  },
+  "10ed8e70dec66d99": "Una guía multilingüe para visitantes del museo que muestra la internacionalización con General Translation. Recorre las exposiciones, explora la colección y descubre obras de arte de todo el mundo.",
+  "2033be28a309b425": {
+    "c": "Acerca de este trabajo",
+    "i": 1,
+    "t": "h2"
+  },
   "2142f13ed2b98e51": "Colección",
   "222cde10939a757f": [
     {
@@ -101,7 +29,7 @@
                   "k": "_gt_n_5",
                   "v": "n"
                 },
-                " obras de arte en exhibición"
+                " de obras de arte en exhibición"
               ],
               "i": 4,
               "t": "C4"
@@ -113,7 +41,7 @@
                   "k": "_gt_n_5",
                   "v": "n"
                 },
-                " obras de arte en exhibición"
+                " de obras de arte en exhibición"
               ],
               "i": 4,
               "t": "C4"
@@ -125,7 +53,7 @@
                   "k": "_gt_n_5",
                   "v": "n"
                 },
-                " obras de arte en exhibición"
+                " de obras de arte en exhibición"
               ],
               "i": 4,
               "t": "C4"
@@ -152,83 +80,6 @@
       "t": "p"
     }
   ],
-  "292846068b01b4fc": [
-    {
-      "c": "Acerca de este trabajo",
-      "i": 1,
-      "t": "h2"
-    },
-    {
-      "c": {
-        "i": 3,
-        "k": "_gt_value_3",
-        "v": "v"
-      },
-      "i": 2,
-      "t": "p"
-    }
-  ],
-  "2a6ba7ebc59c6359": [
-    {
-      "c": {
-        "i": 2,
-        "k": "_gt_value_2",
-        "v": "v"
-      },
-      "i": 1,
-      "t": "h3"
-    },
-    {
-      "c": [
-        {
-          "i": 4,
-          "k": "_gt_value_4",
-          "v": "v"
-        },
-        ", ",
-        {
-          "i": 5,
-          "k": "_gt_n_5",
-          "v": "n"
-        }
-      ],
-      "i": 3,
-      "t": "p"
-    },
-    {
-      "c": {
-        "d": {
-          "b": {
-            "installation": {
-              "c": "Instalación",
-              "i": 8,
-              "t": "C8"
-            },
-            "painting": {
-              "c": "Pintura",
-              "i": 8,
-              "t": "C8"
-            },
-            "photography": {
-              "c": "Fotografía",
-              "i": 8,
-              "t": "C8"
-            },
-            "sculpture": {
-              "c": "Escultura",
-              "i": 8,
-              "t": "C8"
-            }
-          },
-          "t": "b"
-        },
-        "i": 7,
-        "t": "Branch"
-      },
-      "i": 6,
-      "t": "p"
-    }
-  ],
   "2b6ec6f4672d0422": [
     {
       "c": "Exposiciones",
@@ -241,225 +92,11 @@
       "t": "p"
     }
   ],
-  "2c47f2ea73884fe8": [
-    {
-      "c": {
-        "d": {
-          "b": {
-            "current": {
-              "c": "Ahora en exhibición",
-              "i": 3,
-              "t": "C3"
-            },
-            "past": {
-              "c": "Exposición pasada",
-              "i": 3,
-              "t": "C3"
-            },
-            "upcoming": {
-              "c": "Próximamente",
-              "i": 3,
-              "t": "C3"
-            }
-          },
-          "t": "b"
-        },
-        "i": 2,
-        "t": "Branch"
-      },
-      "i": 1,
-      "t": "span"
-    },
-    {
-      "c": {
-        "i": 4,
-        "k": "_gt_value_4",
-        "v": "v"
-      },
-      "i": 3,
-      "t": "h1"
-    },
-    {
-      "c": {
-        "i": 6,
-        "k": "_gt_value_6",
-        "v": "v"
-      },
-      "i": 5,
-      "t": "p"
-    },
-    {
-      "c": [
-        {
-          "i": 8,
-          "k": "_gt_date_8",
-          "v": "d"
-        },
-        " — ",
-        {
-          "i": 9,
-          "k": "_gt_date_9",
-          "v": "d"
-        }
-      ],
-      "i": 7,
-      "t": "p"
-    }
-  ],
-  "317544763b28b6b1": [
-    {
-      "c": {
-        "i": 2,
-        "k": "_gt_value_2",
-        "v": "v"
-      },
-      "i": 1,
-      "t": "h3"
-    },
-    {
-      "c": [
-        {
-          "i": 4,
-          "k": "_gt_value_4",
-          "v": "v"
-        },
-        ", ",
-        {
-          "i": 5,
-          "k": "_gt_n_5",
-          "v": "n"
-        }
-      ],
-      "i": 3,
-      "t": "p"
-    },
-    {
-      "c": {
-        "d": {
-          "b": {
-            "installation": {
-              "c": "Instalación",
-              "i": 8,
-              "t": "C8"
-            },
-            "painting": {
-              "c": "Pintura",
-              "i": 8,
-              "t": "C8"
-            },
-            "photography": {
-              "c": "Fotografía",
-              "i": 8,
-              "t": "C8"
-            },
-            "sculpture": {
-              "c": "Escultura",
-              "i": 8,
-              "t": "C8"
-            }
-          },
-          "t": "b"
-        },
-        "i": 7,
-        "t": "Branch"
-      },
-      "i": 6,
-      "t": "p"
-    },
-    {
-      "c": [
-        {
-          "i": 9,
-          "k": "_gt_n_9",
-          "v": "n"
-        },
-        " x ",
-        {
-          "i": 10,
-          "k": "_gt_n_10",
-          "v": "n"
-        },
-        " ",
-        {
-          "i": 11,
-          "k": "_gt_value_11",
-          "v": "v"
-        }
-      ],
-      "i": 8,
-      "t": "p"
-    }
-  ],
   "33723cae8500f9a3": {
     "c": "Trabajos relacionados",
     "i": 1,
     "t": "h2"
   },
-  "34f198acb810c2d7": [
-    {
-      "c": "Obra destacada",
-      "i": 1,
-      "t": "p"
-    },
-    {
-      "c": {
-        "i": 3,
-        "k": "_gt_value_3",
-        "v": "v"
-      },
-      "i": 2,
-      "t": "h2"
-    },
-    {
-      "c": [
-        {
-          "i": 5,
-          "k": "_gt_value_5",
-          "v": "v"
-        },
-        ", ",
-        {
-          "i": 6,
-          "k": "_gt_n_6",
-          "v": "n"
-        }
-      ],
-      "i": 4,
-      "t": "p"
-    },
-    {
-      "c": {
-        "i": 8,
-        "k": "_gt_value_8",
-        "v": "v"
-      },
-      "i": 7,
-      "t": "p"
-    },
-    {
-      "c": [
-        {
-          "i": 10,
-          "k": "_gt_n_10",
-          "v": "n"
-        },
-        " x ",
-        {
-          "i": 11,
-          "k": "_gt_n_11",
-          "v": "n"
-        },
-        " ",
-        {
-          "i": 12,
-          "k": "_gt_value_12",
-          "v": "v"
-        }
-      ],
-      "i": 9,
-      "t": "p"
-    }
-  ],
   "35d12c43430aa3b9": "Exposiciones",
   "3c3f0b6a466cc573": "Ver detalles de la obra",
   "3cc3f2f1b3fa1212": [
@@ -484,7 +121,20 @@
       "t": "p"
     }
   ],
-  "3fd39890f39f3528": "Buscar obras de arte o artistas...",
+  "3fd39890f39f3528": "Busca obras de arte o artistas...",
+  "43ee23c23b29c2e0": [
+    {
+      "i": 1,
+      "k": "_gt_date_1",
+      "v": "d"
+    },
+    " — ",
+    {
+      "i": 2,
+      "k": "_gt_date_2",
+      "v": "d"
+    }
+  ],
   "4890fa52395a9af7": {
     "d": {
       "b": {
@@ -536,52 +186,6 @@
       "t": "p"
     }
   ],
-  "4c45eb42e24b3bf6": [
-    {
-      "c": {
-        "i": 2,
-        "k": "_gt_value_2",
-        "v": "v"
-      },
-      "i": 1,
-      "t": "h3"
-    },
-    {
-      "c": {
-        "i": 4,
-        "k": "_gt_value_4",
-        "v": "v"
-      },
-      "i": 3,
-      "t": "p"
-    },
-    {
-      "c": {
-        "i": 6,
-        "k": "_gt_value_6",
-        "v": "v"
-      },
-      "i": 5,
-      "t": "p"
-    },
-    {
-      "c": [
-        {
-          "i": 8,
-          "k": "_gt_date_8",
-          "v": "d"
-        },
-        " — ",
-        {
-          "i": 9,
-          "k": "_gt_date_9",
-          "v": "d"
-        }
-      ],
-      "i": 7,
-      "t": "p"
-    }
-  ],
   "4e66154460620f91": "Todos los artistas",
   "505dde85b849665c": {
     "d": {
@@ -612,119 +216,6 @@
     "i": 1,
     "t": "Branch"
   },
-  "506f29711f5818cd": [
-    {
-      "c": {
-        "i": 2,
-        "k": "_gt_value_2",
-        "v": "v"
-      },
-      "i": 1,
-      "t": "h2"
-    },
-    {
-      "c": {
-        "i": 4,
-        "k": "_gt_value_4",
-        "v": "v"
-      },
-      "i": 3,
-      "t": "p"
-    },
-    {
-      "c": {
-        "i": 6,
-        "k": "_gt_value_6",
-        "v": "v"
-      },
-      "i": 5,
-      "t": "p"
-    },
-    {
-      "c": [
-        {
-          "c": [
-            {
-              "i": 9,
-              "k": "_gt_date_9",
-              "v": "d"
-            },
-            " — ",
-            {
-              "i": 10,
-              "k": "_gt_date_10",
-              "v": "d"
-            }
-          ],
-          "i": 8,
-          "t": "span"
-        },
-        {
-          "c": {
-            "d": {
-              "b": {
-                "many": {
-                  "c": [
-                    {
-                      "i": 14,
-                      "k": "_gt_n_14",
-                      "v": "n"
-                    },
-                    " obras de arte"
-                  ],
-                  "i": 13,
-                  "t": "C13"
-                },
-                "other": {
-                  "c": [
-                    {
-                      "i": 14,
-                      "k": "_gt_n_14",
-                      "v": "n"
-                    },
-                    " obras de arte"
-                  ],
-                  "i": 13,
-                  "t": "C13"
-                },
-                "plural": {
-                  "c": [
-                    {
-                      "i": 14,
-                      "k": "_gt_n_14",
-                      "v": "n"
-                    },
-                    " obras de arte"
-                  ],
-                  "i": 13,
-                  "t": "C13"
-                },
-                "singular": {
-                  "c": [
-                    {
-                      "i": 14,
-                      "k": "_gt_n_14",
-                      "v": "n"
-                    },
-                    " obra de arte"
-                  ],
-                  "i": 13,
-                  "t": "C13"
-                }
-              },
-              "t": "p"
-            },
-            "i": 12,
-            "t": "Plural"
-          },
-          "i": 11,
-          "t": "span"
-        }
-      ],
-      "i": 7,
-      "t": "div"
-    }
-  ],
   "5469a50990bc6d6f": {
     "c": "Esta es una aplicación de ejemplo creada con General Translation para demostrar la internacionalización. No es un museo real ni una guía de visitantes.",
     "i": 1,
@@ -757,50 +248,98 @@
       "t": "p"
     }
   ],
-  "64c58bb7d3055d45": [
+  "6b3b6ca5ef0577f2": [
+    {
+      "c": [
+        {
+          "i": 2,
+          "k": "_gt_value_2",
+          "v": "v"
+        },
+        ", ",
+        {
+          "i": 3,
+          "k": "_gt_n_3",
+          "v": "n"
+        }
+      ],
+      "i": 1,
+      "t": "p"
+    },
     {
       "c": {
-        "i": 2,
-        "k": "_gt_value_2",
-        "v": "v"
+        "d": {
+          "b": {
+            "installation": {
+              "c": "Instalación",
+              "i": 6,
+              "t": "C6"
+            },
+            "painting": {
+              "c": "Pintura",
+              "i": 6,
+              "t": "C6"
+            },
+            "photography": {
+              "c": "Fotografía",
+              "i": 6,
+              "t": "C6"
+            },
+            "sculpture": {
+              "c": "Escultura",
+              "i": 6,
+              "t": "C6"
+            }
+          },
+          "t": "b"
+        },
+        "i": 5,
+        "t": "Branch"
       },
-      "i": 1,
-      "t": "h3"
+      "i": 4,
+      "t": "p"
     },
     {
       "c": [
         {
-          "i": 4,
-          "k": "_gt_date_4",
-          "v": "d"
+          "i": 7,
+          "k": "_gt_n_7",
+          "v": "n"
         },
-        " — ",
+        " x ",
         {
-          "i": 5,
-          "k": "_gt_date_5",
-          "v": "d"
+          "i": 8,
+          "k": "_gt_n_8",
+          "v": "n"
+        },
+        " ",
+        {
+          "i": 9,
+          "k": "_gt_value_9",
+          "v": "v"
         }
       ],
-      "i": 3,
+      "i": 6,
       "t": "p"
     }
   ],
-  "6ad0bbc26bb4279c": [
-    {
-      "c": "Contexto histórico",
-      "i": 1,
-      "t": "h2"
-    },
-    {
-      "c": {
-        "i": 3,
-        "k": "_gt_value_3",
+  "6d3602d1c057d597": {
+    "c": [
+      {
+        "i": 2,
+        "k": "_gt_value_2",
         "v": "v"
       },
-      "i": 2,
-      "t": "p"
-    }
-  ],
+      ", ",
+      {
+        "i": 3,
+        "k": "_gt_n_3",
+        "v": "n"
+      }
+    ],
+    "i": 1,
+    "t": "p"
+  },
   "6f0e82225465c593": {
     "c": "Artista",
     "i": 1,
@@ -818,6 +357,11 @@
       "t": "p"
     }
   ],
+  "75752993c2e8fcc1": {
+    "c": "Contexto histórico",
+    "i": 1,
+    "t": "h2"
+  },
   "7f390b3e781bdc3c": [
     {
       "c": "Obra de arte no encontrada",
@@ -833,19 +377,83 @@
   "7fb69e68bc351fee": "Haz clic para ampliar",
   "8195318028c7bb81": "Explorar colección",
   "84bac7ff6027feb3": "Volver a la colección",
-  "84f5f65f84c822ff": [
+  "91e444938db4ec22": {
+    "c": {
+      "d": {
+        "b": {
+          "current": {
+            "c": "Ahora en exhibición",
+            "i": 3,
+            "t": "C3"
+          },
+          "past": {
+            "c": "Exposición pasada",
+            "i": 3,
+            "t": "C3"
+          },
+          "upcoming": {
+            "c": "Próximamente",
+            "i": 3,
+            "t": "C3"
+          }
+        },
+        "t": "b"
+      },
+      "i": 2,
+      "t": "Branch"
+    },
+    "i": 1,
+    "t": "span"
+  },
+  "92ce9208971f4adb": [
     {
-      "c": "Sobre el artista",
+      "c": [
+        {
+          "i": 2,
+          "k": "_gt_value_2",
+          "v": "v"
+        },
+        ", ",
+        {
+          "i": 3,
+          "k": "_gt_n_3",
+          "v": "n"
+        }
+      ],
       "i": 1,
-      "t": "h2"
+      "t": "p"
     },
     {
       "c": {
-        "i": 3,
-        "k": "_gt_value_3",
-        "v": "v"
+        "d": {
+          "b": {
+            "installation": {
+              "c": "Instalación",
+              "i": 6,
+              "t": "C6"
+            },
+            "painting": {
+              "c": "Pintura",
+              "i": 6,
+              "t": "C6"
+            },
+            "photography": {
+              "c": "Fotografía",
+              "i": 6,
+              "t": "C6"
+            },
+            "sculpture": {
+              "c": "Escultura",
+              "i": 6,
+              "t": "C6"
+            }
+          },
+          "t": "b"
+        },
+        "i": 5,
+        "t": "Branch"
       },
-      "i": 2,
+      "i": 4,
       "t": "p"
     }
   ],
@@ -866,15 +474,104 @@
       "t": "p"
     }
   ],
+  "953dade4431394cf": {
+    "c": [
+      {
+        "c": [
+          {
+            "i": 3,
+            "k": "_gt_date_3",
+            "v": "d"
+          },
+          " — ",
+          {
+            "i": 4,
+            "k": "_gt_date_4",
+            "v": "d"
+          }
+        ],
+        "i": 2,
+        "t": "span"
+      },
+      {
+        "c": {
+          "d": {
+            "b": {
+              "many": {
+                "c": [
+                  {
+                    "i": 8,
+                    "k": "_gt_n_8",
+                    "v": "n"
+                  },
+                  " obras de arte"
+                ],
+                "i": 7,
+                "t": "C7"
+              },
+              "other": {
+                "c": [
+                  {
+                    "i": 8,
+                    "k": "_gt_n_8",
+                    "v": "n"
+                  },
+                  " obras de arte"
+                ],
+                "i": 7,
+                "t": "C7"
+              },
+              "plural": {
+                "c": [
+                  {
+                    "i": 8,
+                    "k": "_gt_n_8",
+                    "v": "n"
+                  },
+                  " obras de arte"
+                ],
+                "i": 7,
+                "t": "C7"
+              },
+              "singular": {
+                "c": [
+                  {
+                    "i": 8,
+                    "k": "_gt_n_8",
+                    "v": "n"
+                  },
+                  " obra de arte"
+                ],
+                "i": 7,
+                "t": "C7"
+              }
+            },
+            "t": "p"
+          },
+          "i": 6,
+          "t": "Plural"
+        },
+        "i": 5,
+        "t": "span"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
   "97d0bcd613b42aa8": "Guía del museo | General Translation",
+  "9b03f287cb486620": {
+    "c": "Declaración del curador",
+    "i": 1,
+    "t": "h2"
+  },
   "a7c300ce04e2a9e1": [
     {
-      "c": "Audioguía",
+      "c": "Audio Tour",
       "i": 1,
       "t": "h3"
     },
     {
-      "c": "Hay una audioguía disponible para esta exposición, que ofrece una visión más profunda de cada obra y de la perspectiva curatorial detrás de la muestra.",
+      "c": "Para esta exposición hay disponible un audio tour guiado, que ofrece una visión más profunda de cada obra y de la visión curatorial detrás de la muestra.",
       "i": 2,
       "t": "p"
     },
@@ -929,6 +626,54 @@
     "i": 1,
     "t": "p"
   },
+  "artworks.cathedral-of-trees.artistBio": "Hiroshi Tanaka, nacido en Kioto en 1965, crea esculturas monumentales que fusionan formas orgánicas con materiales industriales. Sus instalaciones se han presentado en la Bienal de Venecia y en documenta.",
+  "artworks.cathedral-of-trees.description": "Una instalación monumental de ramas de acero entrelazadas que forman un dosel sobre las cabezas de los visitantes, con superficies corroídas en un cálido tono marrón óxido. Los visitantes caminan bajo la estructura y experimentan la escala y el refugio de un bosque ancestral recreado en metal.",
+  "artworks.cathedral-of-trees.historicalContext": "Tanaka creó esta obra como respuesta a la rápida deforestación en el sudeste asiático, transformando la aparente permanencia del acero en una meditación sobre los bosques que alguna vez existieron y en lo que podrían convertirse si solo quedaran sus fantasmas.",
+  "artworks.cathedral-of-trees.title": "Catedral de árboles",
+  "artworks.erosion-no-7.artistBio": "Amara Osei, nacida en Acra en 1975, es una escultora cuya obra explora temas de tiempo, deterioro y transformación. Trabaja principalmente con piedra, arcilla y materiales naturales hallados.",
+  "artworks.erosion-no-7.description": "Una alta columna de arenisca estratificada, cada estrato tallado para revelar texturas y patrones diferenciados, como si milenios de historia geológica se hubiesen condensado en una sola forma erguida. La base es tosca e inacabada; la parte superior está pulida hasta alcanzar una suavidad similar a la de un espejo.",
+  "artworks.erosion-no-7.historicalContext": "Parte de la serie «Erosion» de Osei, desarrollada a lo largo de una década, esta obra explora cómo el tiempo transforma los paisajes. La artista obtuvo la piedra de una cantera cercana a la casa donde pasó su infancia en Ghana, conectando el recuerdo personal con el tiempo geológico.",
+  "artworks.erosion-no-7.title": "Erosión n.º 7",
+  "artworks.frozen-moment-no-3.artistBio": "Lars Eriksson, nacido en Estocolmo en 1970, es un fotógrafo conocido por su trabajo de exposición ultralarga para capturar fenómenos naturales. Sus fotografías han pasado a formar parte de las colecciones de importantes instituciones de todo el mundo.",
+  "artworks.frozen-moment-no-3.description": "Una fotografía de gran formato de una cascada tomada con una exposición de 30 minutos, que transforma el agua de la cascada en un velo blanco, suave y fantasmal sobre la roca volcánica oscura. El musgo circundante se ve increíblemente vívido frente al agua etérea.",
+  "artworks.frozen-moment-no-3.historicalContext": "La serie «Frozen Moments», de Eriksson, explora la paradoja de la fotografía: capturar un instante frente a revelar lo que el ojo no puede percibir a lo largo de un periodo prolongado. Esta imagen se realizó en Islandia durante el solsticio de invierno.",
+  "artworks.frozen-moment-no-3.title": "Momento congelado n.º 3",
+  "artworks.glass-forest.artistBio": "Yuki Mori, nacida en Tokio en 1982, trabaja en la intersección entre el arte en vidrio y la instalación ambiental. Sus formas transparentes y frágiles son una reflexión sobre la vulnerabilidad ecológica.",
+  "artworks.glass-forest.description": "Decenas de árboles de vidrio translúcido, que van desde la altura de la rodilla hasta más de tres metros, llenan por completo una sala de la galería. Cada árbol está soplado individualmente e iluminado internamente con sutiles luces LED, creando un bosque etéreo por el que los visitantes pueden caminar.",
+  "artworks.glass-forest.historicalContext": "Los bosques de vidrio de Mori reaccionan al cambio climático, utilizando la fragilidad del vidrio como metáfora de la vulnerabilidad de los ecosistemas naturales. Cada pieza es única y refleja la biodiversidad de un bosque real.",
+  "artworks.glass-forest.title": "Bosque de cristal",
+  "artworks.light-study-autumn.artistBio": "Clara Johansson, nacida en Copenhague en 1990, crea pinturas de gran formato que exploran la cualidad de la luz a través de las estaciones y geografías. Su obra forma parte de colecciones en Escandinavia y Alemania.",
+  "artworks.light-study-autumn.description": "Un lienzo monumental dominado por cálidos tonos ámbar y rojizos, que representa la luz inclinada de una tarde de finales de octubre filtrándose entre un bosque de abedules. La pintura se aplica en veladuras finas y luminosas que crean una sensación de atmósfera y profundidad.",
+  "artworks.light-study-autumn.historicalContext": "Forma parte de la serie «Light Study» de Johansson, que documenta la cambiante calidad de la luz escandinava a lo largo de las cuatro estaciones. Esta pieza otoñal captura el breve período dorado que precede al largo invierno nórdico.",
+  "artworks.light-study-autumn.title": "Estudio de la luz: otoño",
+  "artworks.midnight-bloom.artistBio": "Nacida en Madrid en 1978, Elena Vázquez es conocida por sus paisajes llenos de luz, que combinan técnicas impresionistas con la teoría contemporánea del color. Su obra se ha expuesto por toda Europa y Norteamérica.",
+  "artworks.midnight-bloom.description": "Un primer plano íntimo de una única flor que se abre sobre un fondo oscuro, pintada con gruesas pinceladas de empasto que otorgan a los pétalos una cualidad escultórica. Motas de pigmento fosforescente hacen que la superficie desprenda un tenue resplandor con poca luz.",
+  "artworks.midnight-bloom.historicalContext": "Como parte de la exploración de Vázquez sobre la bioluminiscencia en la naturaleza, esta pintura se inspiró en organismos de las profundidades abisales y en el fenómeno de ciertas flores que solo se abren de noche.",
+  "artworks.midnight-bloom.title": "Floración a medianoche",
+  "artworks.portrait-of-the-wind.artistBio": "Hiroshi Tanaka, nacido en Kioto en 1965, crea esculturas monumentales que fusionan formas orgánicas con materiales industriales. Sus instalaciones se han presentado en la Bienal de Venecia y en Documenta.",
+  "artworks.portrait-of-the-wind.description": "Una escultura cinética compuesta por aspas de aluminio pulido dispuestas en una configuración en espiral. Cuando las corrientes de aire atraviesan la galería, las aspas giran a distintas velocidades, creando patrones cambiantes de luz reflejada y un suave tintineo.",
+  "artworks.portrait-of-the-wind.historicalContext": "Tanaka describe esta obra como un intento de dar forma física a una fuerza invisible. La escultura responde al sistema de ventilación del edificio, haciendo visible la normalmente oculta circulación del aire dentro del espacio de la galería.",
+  "artworks.portrait-of-the-wind.title": "Retrato del viento",
+  "artworks.signal-noise.artistBio": "Marcus Chen, nacido en San Francisco en 1988, crea instalaciones inmersivas que exploran la relación entre la tecnología, la percepción y la conexión humana en la era digital.",
+  "artworks.signal-noise.description": "Instalación a escala de sala con cientos de pantallas suspendidas que muestran fragmentos de señales de radio interceptadas, convertidas en patrones visuales. Los visitantes provocan cambios con su movimiento a través del espacio, creando un entorno reactivo de luz y sonido.",
+  "artworks.signal-noise.historicalContext": "La obra de Chen aborda el paisaje electromagnético invisible que rodea la vida moderna. «Signal / Noise» invita a los visitantes a reflexionar sobre la enorme cantidad de información que atraviesa sus cuerpos en todo momento, casi siempre sin que se den cuenta.",
+  "artworks.signal-noise.title": "Señal / Ruido",
+  "artworks.starlit-garden.artistBio": "Nacida en Madrid en 1978, Elena Vázquez es conocida por sus luminosos paisajes que combinan técnicas impresionistas con la teoría contemporánea del color. Su obra se ha expuesto en toda Europa y Norteamérica.",
+  "artworks.starlit-garden.description": "Una amplia escena de jardín nocturno en profundos tonos azules y plateados, salpicada de puntos de luz dorada por todo el lienzo, como estrellas caídas a la tierra. La composición guía la mirada del espectador a lo largo de un sendero de piedra serpenteante hacia un arco iluminado en la distancia.",
+  "artworks.starlit-garden.historicalContext": "Creada durante el período «Nocturno» de Vasquez, esta obra refleja la fascinación del artista por la interacción entre la luz natural y la artificial en espacios verdes urbanos. La pieza se inscribe en el creciente movimiento de artistas que están recuperando el imaginario de la naturaleza en la era digital.",
+  "artworks.starlit-garden.title": "El jardín estrellado",
+  "artworks.the-reading-room.artistBio": "Sofía Ruiz, nacida en Buenos Aires en 1985, documenta las capas de historia de las ciudades a través de la fotografía y los medios mixtos. Su obra se ha exhibido en la Bienal de São Paulo y en la Bienal de La Habana.",
+  "artworks.the-reading-room.description": "Una serie de fotografías que documentan bibliotecas y salas de lectura abandonadas en toda Sudamérica. Cada imagen captura la conmovedora belleza de los libros que quedaron: estanterías medio vacías, lámparas de lectura todavía en su sitio, sillas apartadas como si sus ocupantes acabaran de levantarse.",
+  "artworks.the-reading-room.historicalContext": "Ruiz pasó dos años viajando para documentar estos espacios, que considera monumentos al papel cambiante de los libros físicos y la lectura comunitaria en la era digital. La serie plantea preguntas sobre el conocimiento, el acceso y la memoria cultural.",
+  "artworks.the-reading-room.title": "La sala de lectura",
+  "artworks.urban-palimpsest.artistBio": "Sofía Ruiz, nacida en Buenos Aires en 1985, documenta las historias superpuestas de las ciudades a través de la fotografía y las técnicas mixtas. Su obra se ha expuesto en la Bienal de São Paulo y en la Bienal de La Habana.",
+  "artworks.urban-palimpsest.description": "Una fotografía compuesta que superpone decenas de imágenes de la misma esquina de una calle tomadas durante doce meses. Letreros, personas, vehículos y el clima se funden en un denso tapiz de vida cotidiana donde nada es del todo visible pero todo está presente.",
+  "artworks.urban-palimpsest.historicalContext": "Ruiz desarrolló esta técnica para capturar la experiencia vivida de los espacios urbanos: no un solo instante, sino la memoria acumulada de un lugar. El título hace referencia a los manuscritos medievales en los que se raspaban los textos anteriores y se escribía uno nuevo encima.",
+  "artworks.urban-palimpsest.title": "Palimpsesto urbano",
+  "artworks.vessel-of-memory.artistBio": "Amara Osei, nacida en Accra en 1975, es una escultora cuya obra explora temas de tiempo, deterioro y transformación. Trabaja principalmente con piedra, arcilla y materiales naturales recolectados.",
+  "artworks.vessel-of-memory.description": "Una gran vasija de cerámica cuya superficie está cubierta de intrincados patrones estampados con objetos encontrados: llaves, monedas, conchas, texturas de telas. El interior está esmaltado en un añil profundo, lo que sugiere profundidad e interioridad.",
+  "artworks.vessel-of-memory.historicalContext": "Osei creó esta pieza durante una residencia en Senegal, recopilando objetos cotidianos de los mercados locales para estamparlos en la arcilla. La vasija se convierte en un contenedor de memoria colectiva, cada impresión es una huella de la vida diaria de alguien.",
+  "artworks.vessel-of-memory.title": "Vasija de la memoria",
   "b5a603760ade8612": {
     "d": {
       "b": {
@@ -975,7 +720,7 @@
               "k": "_gt_n_3",
               "v": "n"
             },
-            " obra encontrada"
+            " obra de arte encontrada"
           ],
           "i": 2,
           "t": "C2"
@@ -998,7 +743,45 @@
     "t": "h2"
   },
   "cdbafd18a30803b9": "Visita guiada de audio disponible",
+  "cffee52f260019a4": {
+    "c": "Obra destacada",
+    "i": 1,
+    "t": "p"
+  },
   "d9fa5dab66edc3e5": "Ninguna exposición coincide con el filtro seleccionado.",
+  "dde0d86b38989433": {
+    "c": {
+      "d": {
+        "b": {
+          "installation": {
+            "c": "Instalación",
+            "i": 3,
+            "t": "C3"
+          },
+          "painting": {
+            "c": "Pintura",
+            "i": 3,
+            "t": "C3"
+          },
+          "photography": {
+            "c": "Fotografía",
+            "i": 3,
+            "t": "C3"
+          },
+          "sculpture": {
+            "c": "Escultura",
+            "i": 3,
+            "t": "C3"
+          }
+        },
+        "t": "b"
+      },
+      "i": 2,
+      "t": "Branch"
+    },
+    "i": 1,
+    "t": "p"
+  },
   "e05a0c20999c497e": {
     "c": "Información de visitantes",
     "i": 1,
@@ -1062,34 +845,22 @@
     "i": 1,
     "t": "Plural"
   },
-  "ed0d5e5641cf15b1": [
-    {
-      "c": {
-        "i": 2,
-        "k": "_gt_value_2",
-        "v": "v"
-      },
-      "i": 1,
-      "t": "h3"
-    },
-    {
-      "c": [
-        {
-          "i": 4,
-          "k": "_gt_value_4",
-          "v": "v"
-        },
-        ", ",
-        {
-          "i": 5,
-          "k": "_gt_n_5",
-          "v": "n"
-        }
-      ],
-      "i": 3,
-      "t": "p"
-    }
-  ],
+  "exhibitions.garden-of-light.curatorStatement": "Esta exposición celebra la relación duradera entre el arte y el mundo natural. Desde los jardines pintados de Vasquez hasta los bosques de acero de Tanaka y los estudios sobre la luz estacional de Johansson, estos artistas reinventan la naturaleza a través de sus perspectivas únicas, recordándonos tanto su belleza como su fragilidad.",
+  "exhibitions.garden-of-light.description": "Una exposición temática que explora cómo los artistas contemporáneos interpretan, transforman y celebran el mundo natural mediante diversos medios y enfoques.",
+  "exhibitions.garden-of-light.subtitle": "La naturaleza reimaginada a través del arte",
+  "exhibitions.garden-of-light.title": "Jardín de luz",
+  "exhibitions.lens-and-light.curatorStatement": "La fotografía siempre ha sido el arte de la luz, pero los fotógrafos de esta exposición van más allá de la documentación y se acercan a la transformación. Las largas exposiciones de Eriksson disuelven el tiempo, los palimpsestos de Ruiz lo comprimen y, juntos, revelan que la cámara puede mostrarnos no solo lo que es, sino también lo que se oculta bajo y más allá de la visión ordinaria.",
+  "exhibitions.lens-and-light.description": "Una exposición centrada en la fotografía contemporánea que explora el tiempo, la memoria y la percepción a través de técnicas innovadoras y temas fascinantes.",
+  "exhibitions.lens-and-light.subtitle": "Fotografía contemporánea y el mundo visible",
+  "exhibitions.lens-and-light.title": "Lente y luz",
+  "exhibitions.luminous-worlds.curatorStatement": "Esta exposición reúne a artistas que utilizan la luz tanto como tema como medio de expresión. Desde los nocturnos pictóricos de Vasquez hasta los bosques de vidrio resplandeciente de Mori, cada obra nos invita a reconsiderar cómo vemos y cómo la luz da forma a nuestra experiencia del mundo. Las obras aquí presentadas abarcan la pintura, la escultura y la instalación artística, unidas por su exploración de la luminosidad y su poder emocional.",
+  "exhibitions.luminous-worlds.description": "Una exploración inmersiva de cómo los artistas contemporáneos capturan, manipulan y modelan la luz. Incluye pinturas, instalaciones y obras de técnicas mixtas que transforman las salas de exposición en entornos de luz y sombra.",
+  "exhibitions.luminous-worlds.subtitle": "Luz, color y percepción en el arte contemporáneo",
+  "exhibitions.luminous-worlds.title": "Mundos luminosos",
+  "exhibitions.material-dialogues.curatorStatement": "Los artistas de esta exposición comparten una relación profunda con los materiales que han elegido. Ya sea piedra, acero, vidrio o componentes electrónicos, cada artista entabla un diálogo con la materia física, dejando que sea el propio material el que guíe el proceso creativo. El resultado son obras que se expresan tanto a través de la textura, el peso y la presencia como de la forma visual.",
+  "exhibitions.material-dialogues.description": "Una exposición que examina cómo los artistas contemporáneos trabajan con sus materiales y en contra de ellos. Esculturas, instalaciones y obras de medios mixtos que ponen en primer plano las propiedades físicas de la piedra, el metal, el vidrio y la tecnología.",
+  "exhibitions.material-dialogues.subtitle": "Conversaciones entre Forma y Sustancia",
+  "exhibitions.material-dialogues.title": "Diálogos Materiales",
   "f246be0d5b0c8962": {
     "d": {
       "b": {
@@ -1177,22 +948,6 @@
         },
         "i": 3,
         "t": "Plural"
-      },
-      "i": 2,
-      "t": "p"
-    }
-  ],
-  "fd8067dd59d6266a": [
-    {
-      "c": "Declaración del curador",
-      "i": 1,
-      "t": "h2"
-    },
-    {
-      "c": {
-        "i": 3,
-        "k": "_gt_value_3",
-        "v": "v"
       },
       "i": 2,
       "t": "p"

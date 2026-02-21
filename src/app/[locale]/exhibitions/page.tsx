@@ -3,12 +3,14 @@
 import { useState } from "react";
 import Link from "next/link";
 import { T, Var, DateTime, Plural, Num, Branch } from "gt-next";
+import { useTranslations } from "gt-next/client";
 import { exhibitions } from "@/data/exhibitions";
 
 type StatusFilter = "all" | "current" | "upcoming" | "past";
 
 export default function ExhibitionsPage() {
   const [statusFilter, setStatusFilter] = useState<StatusFilter>("all");
+  const d = useTranslations();
 
   const filtered = exhibitions.filter((ex) =>
     statusFilter === "all" ? true : ex.status === statusFilter
@@ -91,10 +93,10 @@ export default function ExhibitionsPage() {
                     </span>
                   )}
                 </div>
+                <h2 className="text-xl font-bold text-[#F5F5F5] mb-1 group-hover:text-[#C9B037] transition-colors">{d(`exhibitions.${ex.id}.title`)}</h2>
+                <p className="text-sm text-[#C9B037] mb-3">{d(`exhibitions.${ex.id}.subtitle`)}</p>
+                <p className="text-sm text-[#999] mb-4 line-clamp-2">{d(`exhibitions.${ex.id}.description`)}</p>
                 <T>
-                  <h2 className="text-xl font-bold text-[#F5F5F5] mb-1 group-hover:text-[#C9B037] transition-colors"><Var>{ex.title}</Var></h2>
-                  <p className="text-sm text-[#C9B037] mb-3"><Var>{ex.subtitle}</Var></p>
-                  <p className="text-sm text-[#999] mb-4 line-clamp-2"><Var>{ex.description}</Var></p>
                   <div className="flex items-center gap-4 text-xs text-[#666]">
                     <span><DateTime>{new Date(ex.startDate)}</DateTime> — <DateTime>{new Date(ex.endDate)}</DateTime></span>
                     <span>

@@ -3,7 +3,7 @@
 import { useState, useMemo } from "react";
 import Link from "next/link";
 import { T, Var, Num, Plural, Branch } from "gt-next";
-import { useGT } from "gt-next/client";
+import { useGT, useTranslations } from "gt-next/client";
 import { artworks, mediums, artists } from "@/data/artworks";
 
 export default function CollectionPage() {
@@ -23,6 +23,7 @@ export default function CollectionPage() {
   }, [search, selectedMediums, selectedArtist, yearRange]);
 
   const gt = useGT();
+  const d = useTranslations();
 
   const toggleMedium = (m: string) => {
     setSelectedMediums((prev) =>
@@ -148,8 +149,8 @@ export default function CollectionPage() {
               <div className="absolute inset-0 bg-gradient-to-t from-[#222] to-transparent" />
             </div>
             <div className="p-4">
+              <h3 className="font-semibold text-[#F5F5F5] group-hover:text-[#C9B037] transition-colors mb-1">{d(`artworks.${artwork.id}.title`)}</h3>
               <T>
-                <h3 className="font-semibold text-[#F5F5F5] group-hover:text-[#C9B037] transition-colors mb-1"><Var>{artwork.title}</Var></h3>
                 <p className="text-sm text-[#999]"><Var>{artwork.artist}</Var>, <Num>{artwork.year}</Num></p>
                 <p className="text-xs text-[#666] mt-1 capitalize">
                   <Branch

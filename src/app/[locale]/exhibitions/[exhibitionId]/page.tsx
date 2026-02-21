@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { T, Var, DateTime, Num, Plural, Branch } from "gt-next";
+import { getTranslations } from "gt-next/server";
 import { exhibitions } from "@/data/exhibitions";
 import { artworks } from "@/data/artworks";
 
@@ -8,6 +9,8 @@ export default async function ExhibitionDetailPage({ params }: { params: Promise
   const { exhibitionId } = await params;
   const exhibition = exhibitions.find((e) => e.id === exhibitionId);
   if (!exhibition) return notFound();
+
+  const d = await getTranslations();
 
   const exhibitionArtworks = exhibition.artworkIds
     .map((id) => artworks.find((a) => a.id === id))
@@ -32,12 +35,14 @@ export default async function ExhibitionDetailPage({ params }: { params: Promise
                 past={<>Past exhibition</>}
               />
             </span>
-            <h1 className="text-4xl md:text-5xl font-bold text-white mb-2"><Var>{exhibition.title}</Var></h1>
-            <p className="text-xl text-white/80 mb-4"><Var>{exhibition.subtitle}</Var></p>
-            <p className="text-sm text-white/60">
-              <DateTime>{new Date(exhibition.startDate)}</DateTime> — <DateTime>{new Date(exhibition.endDate)}</DateTime>
-            </p>
           </T>
+          <h1 className="text-4xl md:text-5xl font-bold text-white mb-2">{d(`exhibitions.${exhibition.id}.title`)}</h1>
+          <p className="text-xl text-white/80 mb-4">{d(`exhibitions.${exhibition.id}.subtitle`)}</p>
+          <p className="text-sm text-white/60">
+            <T>
+              <DateTime>{new Date(exhibition.startDate)}</DateTime> — <DateTime>{new Date(exhibition.endDate)}</DateTime>
+            </T>
+          </p>
         </div>
       </section>
 
@@ -46,8 +51,8 @@ export default async function ExhibitionDetailPage({ params }: { params: Promise
         <section className="mb-12">
           <T>
             <h2 className="text-xl font-bold text-[#C9B037] mb-4">Curator Statement</h2>
-            <p className="text-[#BBB] leading-relaxed"><Var>{exhibition.curatorStatement}</Var></p>
           </T>
+          <p className="text-[#BBB] leading-relaxed">{d(`exhibitions.${exhibition.id}.curatorStatement`)}</p>
         </section>
 
         {/* Audio Tour */}
@@ -88,8 +93,8 @@ export default async function ExhibitionDetailPage({ params }: { params: Promise
                   <div className="absolute inset-0 bg-gradient-to-t from-[#222] to-transparent" />
                 </div>
                 <div className="p-4">
+                  <h3 className="font-semibold text-[#F5F5F5] group-hover:text-[#C9B037] transition-colors mb-1">{d(`artworks.${artwork.id}.title`)}</h3>
                   <T>
-                    <h3 className="font-semibold text-[#F5F5F5] group-hover:text-[#C9B037] transition-colors mb-1"><Var>{artwork.title}</Var></h3>
                     <p className="text-sm text-[#999]"><Var>{artwork.artist}</Var>, <Num>{artwork.year}</Num></p>
                     <p className="text-xs text-[#666] mt-1 capitalize">
                       <Branch

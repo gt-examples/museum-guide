@@ -1,12 +1,15 @@
 import Link from "next/link";
 import { T, Var, Num, DateTime, Plural } from "gt-next";
+import { getTranslations } from "gt-next/server";
 import { exhibitions } from "@/data/exhibitions";
 import { artworks } from "@/data/artworks";
 
 const currentExhibitions = exhibitions.filter((e) => e.status === "current");
 const featuredArtwork = artworks[0];
 
-export default function HomePage() {
+export default async function HomePage() {
+  const d = await getTranslations();
+
   return (
     <div>
       {/* Hero */}
@@ -50,14 +53,14 @@ export default function HomePage() {
                 <div className="absolute inset-0 bg-gradient-to-t from-[#222] to-transparent" />
               </div>
               <div className="p-6">
-                <T>
-                  <h3 className="text-xl font-bold text-[#F5F5F5] mb-1 group-hover:text-[#C9B037] transition-colors"><Var>{ex.title}</Var></h3>
-                  <p className="text-sm text-[#C9B037] mb-3"><Var>{ex.subtitle}</Var></p>
-                  <p className="text-sm text-[#999] mb-4 line-clamp-2"><Var>{ex.description}</Var></p>
-                  <p className="text-xs text-[#666]">
+                <h3 className="text-xl font-bold text-[#F5F5F5] mb-1 group-hover:text-[#C9B037] transition-colors">{d(`exhibitions.${ex.id}.title`)}</h3>
+                <p className="text-sm text-[#C9B037] mb-3">{d(`exhibitions.${ex.id}.subtitle`)}</p>
+                <p className="text-sm text-[#999] mb-4 line-clamp-2">{d(`exhibitions.${ex.id}.description`)}</p>
+                <p className="text-xs text-[#666]">
+                  <T>
                     <DateTime>{new Date(ex.startDate)}</DateTime> — <DateTime>{new Date(ex.endDate)}</DateTime>
-                  </p>
-                </T>
+                  </T>
+                </p>
               </div>
             </Link>
           ))}
@@ -71,13 +74,15 @@ export default function HomePage() {
           <div>
             <T>
               <p className="text-sm text-[#C9B037] font-medium mb-2">Featured Artwork</p>
-              <h2 className="text-2xl font-bold text-[#F5F5F5] mb-2"><Var>{featuredArtwork.title}</Var></h2>
-              <p className="text-sm text-[#AAA] mb-1"><Var>{featuredArtwork.artist}</Var>, <Num>{featuredArtwork.year}</Num></p>
-              <p className="text-[#999] mb-3 line-clamp-3"><Var>{featuredArtwork.description}</Var></p>
-              <p className="text-xs text-[#666]">
-                <Num>{featuredArtwork.dimensions.width}</Num> x <Num>{featuredArtwork.dimensions.height}</Num> <Var>{featuredArtwork.dimensions.unit}</Var>
-              </p>
             </T>
+            <h2 className="text-2xl font-bold text-[#F5F5F5] mb-2">{d(`artworks.${featuredArtwork.id}.title`)}</h2>
+            <p className="text-sm text-[#AAA] mb-1">
+              <Var>{featuredArtwork.artist}</Var>, <Num>{featuredArtwork.year}</Num>
+            </p>
+            <p className="text-[#999] mb-3 line-clamp-3">{d(`artworks.${featuredArtwork.id}.description`)}</p>
+            <p className="text-xs text-[#666]">
+              <Num>{featuredArtwork.dimensions.width}</Num> x <Num>{featuredArtwork.dimensions.height}</Num> {featuredArtwork.dimensions.unit}
+            </p>
             <Link href={`/collection/${featuredArtwork.id}`} className="inline-block mt-4 text-sm text-[#C9B037] hover:underline">
               <T>View artwork details</T>
             </Link>
