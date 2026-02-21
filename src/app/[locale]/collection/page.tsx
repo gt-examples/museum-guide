@@ -2,7 +2,8 @@
 
 import { useState, useMemo } from "react";
 import Link from "next/link";
-import { T, Num, Plural, Branch } from "gt-next";
+import { T, Var, Num, Plural, Branch } from "gt-next";
+import { useGT } from "gt-next/client";
 import { artworks, mediums, artists } from "@/data/artworks";
 
 export default function CollectionPage() {
@@ -20,6 +21,8 @@ export default function CollectionPage() {
       return true;
     });
   }, [search, selectedMediums, selectedArtist, yearRange]);
+
+  const gt = useGT();
 
   const toggleMedium = (m: string) => {
     setSelectedMediums((prev) =>
@@ -42,7 +45,7 @@ export default function CollectionPage() {
             type="text"
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            placeholder="Search artworks or artists..."
+            placeholder={gt("Search artworks or artists...")}
             className="w-full bg-[#1A1A1A] border border-[#444] rounded-lg px-4 py-2 text-[#F5F5F5] placeholder-[#666] focus:outline-none focus:border-[#C9B037] transition-colors text-sm"
           />
         </div>
@@ -86,7 +89,7 @@ export default function CollectionPage() {
               onChange={(e) => setSelectedArtist(e.target.value)}
               className="w-full bg-[#1A1A1A] border border-[#444] rounded-lg px-3 py-2 text-sm text-[#F5F5F5] focus:outline-none focus:border-[#C9B037] transition-colors"
             >
-              <option value="">All artists</option>
+              <option value="">{gt("All artists")}</option>
               {artists.map((a) => (
                 <option key={a} value={a}>{a}</option>
               ))}
@@ -146,8 +149,8 @@ export default function CollectionPage() {
             </div>
             <div className="p-4">
               <T>
-                <h3 className="font-semibold text-[#F5F5F5] group-hover:text-[#C9B037] transition-colors mb-1">{artwork.title}</h3>
-                <p className="text-sm text-[#999]">{artwork.artist}, <Num>{artwork.year}</Num></p>
+                <h3 className="font-semibold text-[#F5F5F5] group-hover:text-[#C9B037] transition-colors mb-1"><Var>{artwork.title}</Var></h3>
+                <p className="text-sm text-[#999]"><Var>{artwork.artist}</Var>, <Num>{artwork.year}</Num></p>
                 <p className="text-xs text-[#666] mt-1 capitalize">
                   <Branch
                     branch={artwork.medium}
@@ -158,7 +161,7 @@ export default function CollectionPage() {
                   />
                 </p>
                 <p className="text-xs text-[#555] mt-1">
-                  <Num>{artwork.dimensions.width}</Num> x <Num>{artwork.dimensions.height}</Num> {artwork.dimensions.unit}
+                  <Num>{artwork.dimensions.width}</Num> x <Num>{artwork.dimensions.height}</Num> <Var>{artwork.dimensions.unit}</Var>
                 </p>
               </T>
             </div>

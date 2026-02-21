@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { T, DateTime, Num, Plural, Branch } from "gt-next";
+import { T, Var, DateTime, Num, Plural, Branch } from "gt-next";
 import { exhibitions } from "@/data/exhibitions";
 import { artworks } from "@/data/artworks";
 
@@ -32,8 +32,8 @@ export default async function ExhibitionDetailPage({ params }: { params: Promise
                 past={<>Past exhibition</>}
               />
             </span>
-            <h1 className="text-4xl md:text-5xl font-bold text-white mb-2">{exhibition.title}</h1>
-            <p className="text-xl text-white/80 mb-4">{exhibition.subtitle}</p>
+            <h1 className="text-4xl md:text-5xl font-bold text-white mb-2"><Var>{exhibition.title}</Var></h1>
+            <p className="text-xl text-white/80 mb-4"><Var>{exhibition.subtitle}</Var></p>
             <p className="text-sm text-white/60">
               <DateTime>{new Date(exhibition.startDate)}</DateTime> — <DateTime>{new Date(exhibition.endDate)}</DateTime>
             </p>
@@ -46,7 +46,7 @@ export default async function ExhibitionDetailPage({ params }: { params: Promise
         <section className="mb-12">
           <T>
             <h2 className="text-xl font-bold text-[#C9B037] mb-4">Curator Statement</h2>
-            <p className="text-[#BBB] leading-relaxed">{exhibition.curatorStatement}</p>
+            <p className="text-[#BBB] leading-relaxed"><Var>{exhibition.curatorStatement}</Var></p>
           </T>
         </section>
 
@@ -89,8 +89,8 @@ export default async function ExhibitionDetailPage({ params }: { params: Promise
                 </div>
                 <div className="p-4">
                   <T>
-                    <h3 className="font-semibold text-[#F5F5F5] group-hover:text-[#C9B037] transition-colors mb-1">{artwork.title}</h3>
-                    <p className="text-sm text-[#999]">{artwork.artist}, <Num>{artwork.year}</Num></p>
+                    <h3 className="font-semibold text-[#F5F5F5] group-hover:text-[#C9B037] transition-colors mb-1"><Var>{artwork.title}</Var></h3>
+                    <p className="text-sm text-[#999]"><Var>{artwork.artist}</Var>, <Num>{artwork.year}</Num></p>
                     <p className="text-xs text-[#666] mt-1 capitalize">
                       <Branch
                         branch={artwork.medium}

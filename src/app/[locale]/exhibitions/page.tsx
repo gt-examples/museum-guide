@@ -2,9 +2,8 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { T, DateTime, Plural, Num } from "gt-next";
+import { T, Var, DateTime, Plural, Num, Branch } from "gt-next";
 import { exhibitions } from "@/data/exhibitions";
-import { Branch } from "gt-next";
 
 type StatusFilter = "all" | "current" | "upcoming" | "past";
 
@@ -71,29 +70,31 @@ export default function ExhibitionsPage() {
                 <div className="absolute inset-0 bg-gradient-to-r from-transparent to-[#222] hidden md:block" />
               </div>
               <div className="p-6 flex-1">
-                <T>
-                  <div className="flex items-center gap-2 mb-2">
-                    <span className={`text-xs font-medium px-2 py-1 rounded-full ${
-                      ex.status === "current" ? "bg-[#C9B037]/20 text-[#C9B037]" :
-                      ex.status === "upcoming" ? "bg-blue-500/20 text-blue-400" :
-                      "bg-[#444] text-[#888]"
-                    }`}>
+                <div className="flex items-center gap-2 mb-2">
+                  <span className={`text-xs font-medium px-2 py-1 rounded-full ${
+                    ex.status === "current" ? "bg-[#C9B037]/20 text-[#C9B037]" :
+                    ex.status === "upcoming" ? "bg-blue-500/20 text-blue-400" :
+                    "bg-[#444] text-[#888]"
+                  }`}>
+                    <T>
                       <Branch
                         branch={ex.status}
                         current={<>Now on view</>}
                         upcoming={<>Coming soon</>}
                         past={<>Past</>}
                       />
+                    </T>
+                  </span>
+                  {ex.audioTourAvailable && (
+                    <span className="text-xs text-[#888] bg-[#333] px-2 py-1 rounded-full">
+                      <T>Audio tour available</T>
                     </span>
-                    {ex.audioTourAvailable && (
-                      <span className="text-xs text-[#888] bg-[#333] px-2 py-1 rounded-full">
-                        Audio tour available
-                      </span>
-                    )}
-                  </div>
-                  <h2 className="text-xl font-bold text-[#F5F5F5] mb-1 group-hover:text-[#C9B037] transition-colors">{ex.title}</h2>
-                  <p className="text-sm text-[#C9B037] mb-3">{ex.subtitle}</p>
-                  <p className="text-sm text-[#999] mb-4 line-clamp-2">{ex.description}</p>
+                  )}
+                </div>
+                <T>
+                  <h2 className="text-xl font-bold text-[#F5F5F5] mb-1 group-hover:text-[#C9B037] transition-colors"><Var>{ex.title}</Var></h2>
+                  <p className="text-sm text-[#C9B037] mb-3"><Var>{ex.subtitle}</Var></p>
+                  <p className="text-sm text-[#999] mb-4 line-clamp-2"><Var>{ex.description}</Var></p>
                   <div className="flex items-center gap-4 text-xs text-[#666]">
                     <span><DateTime>{new Date(ex.startDate)}</DateTime> — <DateTime>{new Date(ex.endDate)}</DateTime></span>
                     <span>

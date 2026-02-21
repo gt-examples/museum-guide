@@ -1,6 +1,88 @@
 {
   "06cdcc90c5eae338": "Meridian Museum",
-  "10ed8e70dec66d99": "Un guide multilingue pour les visiteurs du musée illustrant l’internationalisation avec General Translation. Découvrez les expositions, explorez la collection et admirez des œuvres d’art du monde entier.",
+  "0a3fabbb81b5eac4": [
+    {
+      "c": {
+        "d": {
+          "b": {
+            "installation": {
+              "c": "Installation",
+              "i": 3,
+              "t": "C3"
+            },
+            "painting": {
+              "c": "Peinture",
+              "i": 3,
+              "t": "C3"
+            },
+            "photography": {
+              "c": "Photographie",
+              "i": 3,
+              "t": "C3"
+            },
+            "sculpture": {
+              "c": "Sculpture",
+              "i": 3,
+              "t": "C3"
+            }
+          },
+          "t": "b"
+        },
+        "i": 2,
+        "t": "Branch"
+      },
+      "i": 1,
+      "t": "p"
+    },
+    {
+      "c": {
+        "i": 4,
+        "k": "_gt_value_4",
+        "v": "v"
+      },
+      "i": 3,
+      "t": "h1"
+    },
+    {
+      "c": {
+        "i": 6,
+        "k": "_gt_value_6",
+        "v": "v"
+      },
+      "i": 5,
+      "t": "p"
+    },
+    {
+      "c": [
+        {
+          "i": 8,
+          "k": "_gt_n_8",
+          "v": "n"
+        },
+        " — ",
+        {
+          "i": 9,
+          "k": "_gt_n_9",
+          "v": "n"
+        },
+        " x ",
+        {
+          "i": 10,
+          "k": "_gt_n_10",
+          "v": "n"
+        },
+        " ",
+        {
+          "i": 11,
+          "k": "_gt_value_11",
+          "v": "v"
+        }
+      ],
+      "i": 7,
+      "t": "p"
+    }
+  ],
+  "10ed8e70dec66d99": "Un guide multilingue pour les visiteurs du musée, présentant l’internationalisation avec General Translation. Parcourez les expositions, explorez la collection et découvrez des œuvres d’art venues du monde entier.",
   "2142f13ed2b98e51": "Collection",
   "222cde10939a757f": [
     {
@@ -70,6 +152,83 @@
       "t": "p"
     }
   ],
+  "292846068b01b4fc": [
+    {
+      "c": "À propos de ce projet",
+      "i": 1,
+      "t": "h2"
+    },
+    {
+      "c": {
+        "i": 3,
+        "k": "_gt_value_3",
+        "v": "v"
+      },
+      "i": 2,
+      "t": "p"
+    }
+  ],
+  "2a6ba7ebc59c6359": [
+    {
+      "c": {
+        "i": 2,
+        "k": "_gt_value_2",
+        "v": "v"
+      },
+      "i": 1,
+      "t": "h3"
+    },
+    {
+      "c": [
+        {
+          "i": 4,
+          "k": "_gt_value_4",
+          "v": "v"
+        },
+        ", ",
+        {
+          "i": 5,
+          "k": "_gt_n_5",
+          "v": "n"
+        }
+      ],
+      "i": 3,
+      "t": "p"
+    },
+    {
+      "c": {
+        "d": {
+          "b": {
+            "installation": {
+              "c": "Installation",
+              "i": 8,
+              "t": "C8"
+            },
+            "painting": {
+              "c": "Peinture",
+              "i": 8,
+              "t": "C8"
+            },
+            "photography": {
+              "c": "Photographie",
+              "i": 8,
+              "t": "C8"
+            },
+            "sculpture": {
+              "c": "Sculpture",
+              "i": 8,
+              "t": "C8"
+            }
+          },
+          "t": "b"
+        },
+        "i": 7,
+        "t": "Branch"
+      },
+      "i": 6,
+      "t": "p"
+    }
+  ],
   "2b6ec6f4672d0422": [
     {
       "c": "Expositions",
@@ -82,11 +241,225 @@
       "t": "p"
     }
   ],
+  "2c47f2ea73884fe8": [
+    {
+      "c": {
+        "d": {
+          "b": {
+            "current": {
+              "c": "Actuellement à l'affiche",
+              "i": 3,
+              "t": "C3"
+            },
+            "past": {
+              "c": "Exposition passée",
+              "i": 3,
+              "t": "C3"
+            },
+            "upcoming": {
+              "c": "Bientôt disponible",
+              "i": 3,
+              "t": "C3"
+            }
+          },
+          "t": "b"
+        },
+        "i": 2,
+        "t": "Branch"
+      },
+      "i": 1,
+      "t": "span"
+    },
+    {
+      "c": {
+        "i": 4,
+        "k": "_gt_value_4",
+        "v": "v"
+      },
+      "i": 3,
+      "t": "h1"
+    },
+    {
+      "c": {
+        "i": 6,
+        "k": "_gt_value_6",
+        "v": "v"
+      },
+      "i": 5,
+      "t": "p"
+    },
+    {
+      "c": [
+        {
+          "i": 8,
+          "k": "_gt_date_8",
+          "v": "d"
+        },
+        " — ",
+        {
+          "i": 9,
+          "k": "_gt_date_9",
+          "v": "d"
+        }
+      ],
+      "i": 7,
+      "t": "p"
+    }
+  ],
+  "317544763b28b6b1": [
+    {
+      "c": {
+        "i": 2,
+        "k": "_gt_value_2",
+        "v": "v"
+      },
+      "i": 1,
+      "t": "h3"
+    },
+    {
+      "c": [
+        {
+          "i": 4,
+          "k": "_gt_value_4",
+          "v": "v"
+        },
+        ", ",
+        {
+          "i": 5,
+          "k": "_gt_n_5",
+          "v": "n"
+        }
+      ],
+      "i": 3,
+      "t": "p"
+    },
+    {
+      "c": {
+        "d": {
+          "b": {
+            "installation": {
+              "c": "Installation",
+              "i": 8,
+              "t": "C8"
+            },
+            "painting": {
+              "c": "Peinture",
+              "i": 8,
+              "t": "C8"
+            },
+            "photography": {
+              "c": "Photographie",
+              "i": 8,
+              "t": "C8"
+            },
+            "sculpture": {
+              "c": "Sculpture",
+              "i": 8,
+              "t": "C8"
+            }
+          },
+          "t": "b"
+        },
+        "i": 7,
+        "t": "Branch"
+      },
+      "i": 6,
+      "t": "p"
+    },
+    {
+      "c": [
+        {
+          "i": 9,
+          "k": "_gt_n_9",
+          "v": "n"
+        },
+        " x ",
+        {
+          "i": 10,
+          "k": "_gt_n_10",
+          "v": "n"
+        },
+        " ",
+        {
+          "i": 11,
+          "k": "_gt_value_11",
+          "v": "v"
+        }
+      ],
+      "i": 8,
+      "t": "p"
+    }
+  ],
   "33723cae8500f9a3": {
     "c": "Travaux connexes",
     "i": 1,
     "t": "h2"
   },
+  "34f198acb810c2d7": [
+    {
+      "c": "Œuvre mise en avant",
+      "i": 1,
+      "t": "p"
+    },
+    {
+      "c": {
+        "i": 3,
+        "k": "_gt_value_3",
+        "v": "v"
+      },
+      "i": 2,
+      "t": "h2"
+    },
+    {
+      "c": [
+        {
+          "i": 5,
+          "k": "_gt_value_5",
+          "v": "v"
+        },
+        ", ",
+        {
+          "i": 6,
+          "k": "_gt_n_6",
+          "v": "n"
+        }
+      ],
+      "i": 4,
+      "t": "p"
+    },
+    {
+      "c": {
+        "i": 8,
+        "k": "_gt_value_8",
+        "v": "v"
+      },
+      "i": 7,
+      "t": "p"
+    },
+    {
+      "c": [
+        {
+          "i": 10,
+          "k": "_gt_n_10",
+          "v": "n"
+        },
+        " x ",
+        {
+          "i": 11,
+          "k": "_gt_n_11",
+          "v": "n"
+        },
+        " ",
+        {
+          "i": 12,
+          "k": "_gt_value_12",
+          "v": "v"
+        }
+      ],
+      "i": 9,
+      "t": "p"
+    }
+  ],
   "35d12c43430aa3b9": "Expositions",
   "3c3f0b6a466cc573": "Voir les détails de l'œuvre",
   "3cc3f2f1b3fa1212": [
@@ -101,7 +474,7 @@
       "t": "p"
     },
     {
-      "c": "Arts District",
+      "c": "Quartier des Arts",
       "i": 3,
       "t": "p"
     },
@@ -111,6 +484,7 @@
       "t": "p"
     }
   ],
+  "3fd39890f39f3528": "Rechercher des œuvres ou des artistes…",
   "4890fa52395a9af7": {
     "d": {
       "b": {
@@ -162,6 +536,53 @@
       "t": "p"
     }
   ],
+  "4c45eb42e24b3bf6": [
+    {
+      "c": {
+        "i": 2,
+        "k": "_gt_value_2",
+        "v": "v"
+      },
+      "i": 1,
+      "t": "h3"
+    },
+    {
+      "c": {
+        "i": 4,
+        "k": "_gt_value_4",
+        "v": "v"
+      },
+      "i": 3,
+      "t": "p"
+    },
+    {
+      "c": {
+        "i": 6,
+        "k": "_gt_value_6",
+        "v": "v"
+      },
+      "i": 5,
+      "t": "p"
+    },
+    {
+      "c": [
+        {
+          "i": 8,
+          "k": "_gt_date_8",
+          "v": "d"
+        },
+        " — ",
+        {
+          "i": 9,
+          "k": "_gt_date_9",
+          "v": "d"
+        }
+      ],
+      "i": 7,
+      "t": "p"
+    }
+  ],
+  "4e66154460620f91": "Tous les artistes",
   "505dde85b849665c": {
     "d": {
       "b": {
@@ -191,6 +612,119 @@
     "i": 1,
     "t": "Branch"
   },
+  "506f29711f5818cd": [
+    {
+      "c": {
+        "i": 2,
+        "k": "_gt_value_2",
+        "v": "v"
+      },
+      "i": 1,
+      "t": "h2"
+    },
+    {
+      "c": {
+        "i": 4,
+        "k": "_gt_value_4",
+        "v": "v"
+      },
+      "i": 3,
+      "t": "p"
+    },
+    {
+      "c": {
+        "i": 6,
+        "k": "_gt_value_6",
+        "v": "v"
+      },
+      "i": 5,
+      "t": "p"
+    },
+    {
+      "c": [
+        {
+          "c": [
+            {
+              "i": 9,
+              "k": "_gt_date_9",
+              "v": "d"
+            },
+            " — ",
+            {
+              "i": 10,
+              "k": "_gt_date_10",
+              "v": "d"
+            }
+          ],
+          "i": 8,
+          "t": "span"
+        },
+        {
+          "c": {
+            "d": {
+              "b": {
+                "many": {
+                  "c": [
+                    {
+                      "i": 14,
+                      "k": "_gt_n_14",
+                      "v": "n"
+                    },
+                    " œuvres d'art"
+                  ],
+                  "i": 13,
+                  "t": "C13"
+                },
+                "other": {
+                  "c": [
+                    {
+                      "i": 14,
+                      "k": "_gt_n_14",
+                      "v": "n"
+                    },
+                    " œuvres d'art"
+                  ],
+                  "i": 13,
+                  "t": "C13"
+                },
+                "plural": {
+                  "c": [
+                    {
+                      "i": 14,
+                      "k": "_gt_n_14",
+                      "v": "n"
+                    },
+                    " œuvres d'art"
+                  ],
+                  "i": 13,
+                  "t": "C13"
+                },
+                "singular": {
+                  "c": [
+                    {
+                      "i": 14,
+                      "k": "_gt_n_14",
+                      "v": "n"
+                    },
+                    " œuvre d'art"
+                  ],
+                  "i": 13,
+                  "t": "C13"
+                }
+              },
+              "t": "p"
+            },
+            "i": 12,
+            "t": "Plural"
+          },
+          "i": 11,
+          "t": "span"
+        }
+      ],
+      "i": 7,
+      "t": "div"
+    }
+  ],
   "5469a50990bc6d6f": {
     "c": "Ceci est un exemple d'application développée avec General Translation pour illustrer l'internationalisation. Il ne s'agit pas d'un vrai musée ni d'un guide de visite réel.",
     "i": 1,
@@ -220,6 +754,50 @@
     {
       "c": "Entrée gratuite chaque premier vendredi",
       "i": 5,
+      "t": "p"
+    }
+  ],
+  "64c58bb7d3055d45": [
+    {
+      "c": {
+        "i": 2,
+        "k": "_gt_value_2",
+        "v": "v"
+      },
+      "i": 1,
+      "t": "h3"
+    },
+    {
+      "c": [
+        {
+          "i": 4,
+          "k": "_gt_date_4",
+          "v": "d"
+        },
+        " — ",
+        {
+          "i": 5,
+          "k": "_gt_date_5",
+          "v": "d"
+        }
+      ],
+      "i": 3,
+      "t": "p"
+    }
+  ],
+  "6ad0bbc26bb4279c": [
+    {
+      "c": "Contexte historique",
+      "i": 1,
+      "t": "h2"
+    },
+    {
+      "c": {
+        "i": 3,
+        "k": "_gt_value_3",
+        "v": "v"
+      },
+      "i": 2,
       "t": "p"
     }
   ],
@@ -255,6 +833,22 @@
   "7fb69e68bc351fee": "Cliquer pour zoomer",
   "8195318028c7bb81": "Parcourir la collection",
   "84bac7ff6027feb3": "Retour à la collection",
+  "84f5f65f84c822ff": [
+    {
+      "c": "À propos de l'artiste",
+      "i": 1,
+      "t": "h2"
+    },
+    {
+      "c": {
+        "i": 3,
+        "k": "_gt_value_3",
+        "v": "v"
+      },
+      "i": 2,
+      "t": "p"
+    }
+  ],
   "94624a691835c84e": [
     {
       "c": "Meridian Museum of Contemporary Art",
@@ -267,7 +861,7 @@
       "t": "h1"
     },
     {
-      "c": "Explorez notre collection de renommée mondiale d'art contemporain couvrant la peinture, la sculpture, la photographie et l'installation.",
+      "c": "Explorez notre collection de renommée mondiale d'art contemporain, couvrant peinture, sculpture, photographie et installation.",
       "i": 3,
       "t": "p"
     }
@@ -275,12 +869,12 @@
   "97d0bcd613b42aa8": "Guide du musée | General Translation",
   "a7c300ce04e2a9e1": [
     {
-      "c": "Audioguide",
+      "c": "Visite audio",
       "i": 1,
       "t": "h3"
     },
     {
-      "c": "Un audioguide est disponible pour cette exposition, offrant un éclairage approfondi sur chaque œuvre et la vision curatoriale de l'exposition.",
+      "c": "Une visite audio guidée est disponible pour cette exposition, offrant un aperçu approfondi de chaque œuvre et de la vision curatoriale derrière le spectacle.",
       "i": 2,
       "t": "p"
     },
@@ -345,7 +939,7 @@
               "k": "_gt_n_3",
               "v": "n"
             },
-            " œuvres d'art trouvées"
+            " œuvres trouvées"
           ],
           "i": 2,
           "t": "C2"
@@ -357,7 +951,7 @@
               "k": "_gt_n_3",
               "v": "n"
             },
-            " œuvres d'art trouvées"
+            " œuvres trouvées"
           ],
           "i": 2,
           "t": "C2"
@@ -369,7 +963,7 @@
               "k": "_gt_n_3",
               "v": "n"
             },
-            " œuvres d'art trouvées"
+            " œuvres trouvées"
           ],
           "i": 2,
           "t": "C2"
@@ -403,6 +997,7 @@
     "i": 1,
     "t": "h2"
   },
+  "cdbafd18a30803b9": "Visite audio disponible",
   "d9fa5dab66edc3e5": "Aucune exposition ne correspond au filtre sélectionné.",
   "e05a0c20999c497e": {
     "c": "Informations sur les visiteurs",
@@ -467,6 +1062,58 @@
     "i": 1,
     "t": "Plural"
   },
+  "ed0d5e5641cf15b1": [
+    {
+      "c": {
+        "i": 2,
+        "k": "_gt_value_2",
+        "v": "v"
+      },
+      "i": 1,
+      "t": "h3"
+    },
+    {
+      "c": [
+        {
+          "i": 4,
+          "k": "_gt_value_4",
+          "v": "v"
+        },
+        ", ",
+        {
+          "i": 5,
+          "k": "_gt_n_5",
+          "v": "n"
+        }
+      ],
+      "i": 3,
+      "t": "p"
+    }
+  ],
+  "f246be0d5b0c8962": {
+    "d": {
+      "b": {
+        "current": {
+          "c": "Actuellement visible",
+          "i": 2,
+          "t": "C2"
+        },
+        "past": {
+          "c": "Passé",
+          "i": 2,
+          "t": "C2"
+        },
+        "upcoming": {
+          "c": "Bientôt disponible",
+          "i": 2,
+          "t": "C2"
+        }
+      },
+      "t": "b"
+    },
+    "i": 1,
+    "t": "Branch"
+  },
   "f7a3f3d3f2a8817b": [
     {
       "c": "Expositions en cours",
@@ -520,7 +1167,7 @@
                   "k": "_gt_n_5",
                   "v": "n"
                 },
-                " exposition en cours"
+                " exposition actuellement à l'affiche"
               ],
               "i": 4,
               "t": "C4"
@@ -530,6 +1177,22 @@
         },
         "i": 3,
         "t": "Plural"
+      },
+      "i": 2,
+      "t": "p"
+    }
+  ],
+  "fd8067dd59d6266a": [
+    {
+      "c": "Déclaration du curateur",
+      "i": 1,
+      "t": "h2"
+    },
+    {
+      "c": {
+        "i": 3,
+        "k": "_gt_value_3",
+        "v": "v"
       },
       "i": 2,
       "t": "p"

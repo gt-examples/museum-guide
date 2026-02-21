@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { useParams } from "next/navigation";
-import { T, Num, Branch, DateTime } from "gt-next";
+import { T, Var, Num, Branch, DateTime } from "gt-next";
 import { artworks } from "@/data/artworks";
 import { exhibitions } from "@/data/exhibitions";
 
@@ -73,10 +73,10 @@ export default function ArtworkDetailPage() {
               installation={<>Installation</>}
             />
           </p>
-          <h1 className="text-3xl md:text-4xl font-bold text-[#F5F5F5] mb-2">{artwork.title}</h1>
-          <p className="text-lg text-[#C9B037] mb-1">{artwork.artist}</p>
+          <h1 className="text-3xl md:text-4xl font-bold text-[#F5F5F5] mb-2"><Var>{artwork.title}</Var></h1>
+          <p className="text-lg text-[#C9B037] mb-1"><Var>{artwork.artist}</Var></p>
           <p className="text-sm text-[#888] mb-6">
-            <Num>{artwork.year}</Num> — <Num>{artwork.dimensions.width}</Num> x <Num>{artwork.dimensions.height}</Num> {artwork.dimensions.unit}
+            <Num>{artwork.year}</Num> — <Num>{artwork.dimensions.width}</Num> x <Num>{artwork.dimensions.height}</Num> <Var>{artwork.dimensions.unit}</Var>
           </p>
         </T>
       </div>
@@ -85,7 +85,7 @@ export default function ArtworkDetailPage() {
       <section className="mb-10">
         <T>
           <h2 className="text-lg font-bold text-[#C9B037] mb-3">About This Work</h2>
-          <p className="text-[#BBB] leading-relaxed">{artwork.description}</p>
+          <p className="text-[#BBB] leading-relaxed"><Var>{artwork.description}</Var></p>
         </T>
       </section>
 
@@ -93,7 +93,7 @@ export default function ArtworkDetailPage() {
       <section className="mb-10">
         <T>
           <h2 className="text-lg font-bold text-[#C9B037] mb-3">Historical Context</h2>
-          <p className="text-[#BBB] leading-relaxed">{artwork.historicalContext}</p>
+          <p className="text-[#BBB] leading-relaxed"><Var>{artwork.historicalContext}</Var></p>
         </T>
       </section>
 
@@ -101,7 +101,7 @@ export default function ArtworkDetailPage() {
       <section className="bg-[#222] rounded-xl p-6 border border-[#333] mb-10">
         <T>
           <h2 className="text-lg font-bold text-[#F5F5F5] mb-3">About the Artist</h2>
-          <p className="text-[#BBB] leading-relaxed">{artwork.artistBio}</p>
+          <p className="text-[#BBB] leading-relaxed"><Var>{artwork.artistBio}</Var></p>
         </T>
       </section>
 
@@ -119,7 +119,7 @@ export default function ArtworkDetailPage() {
                 className="block bg-[#222] rounded-lg p-4 border border-[#333] hover:border-[#C9B037]/50 transition-colors"
               >
                 <T>
-                  <h3 className="font-semibold text-[#F5F5F5] mb-1">{ex.title}</h3>
+                  <h3 className="font-semibold text-[#F5F5F5] mb-1"><Var>{ex.title}</Var></h3>
                   <p className="text-xs text-[#888]">
                     <DateTime>{new Date(ex.startDate)}</DateTime> — <DateTime>{new Date(ex.endDate)}</DateTime>
                   </p>
@@ -148,8 +148,8 @@ export default function ArtworkDetailPage() {
                 </div>
                 <div className="p-4">
                   <T>
-                    <h3 className="font-semibold text-[#F5F5F5] group-hover:text-[#C9B037] transition-colors mb-1">{related.title}</h3>
-                    <p className="text-sm text-[#999]">{related.artist}, <Num>{related.year}</Num></p>
+                    <h3 className="font-semibold text-[#F5F5F5] group-hover:text-[#C9B037] transition-colors mb-1"><Var>{related.title}</Var></h3>
+                    <p className="text-sm text-[#999]"><Var>{related.artist}</Var>, <Num>{related.year}</Num></p>
                   </T>
                 </div>
               </Link>

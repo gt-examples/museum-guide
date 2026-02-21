@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { T, Num, DateTime, Plural } from "gt-next";
+import { T, Var, Num, DateTime, Plural } from "gt-next";
 import { exhibitions } from "@/data/exhibitions";
 import { artworks } from "@/data/artworks";
 
@@ -51,9 +51,9 @@ export default function HomePage() {
               </div>
               <div className="p-6">
                 <T>
-                  <h3 className="text-xl font-bold text-[#F5F5F5] mb-1 group-hover:text-[#C9B037] transition-colors">{ex.title}</h3>
-                  <p className="text-sm text-[#C9B037] mb-3">{ex.subtitle}</p>
-                  <p className="text-sm text-[#999] mb-4 line-clamp-2">{ex.description}</p>
+                  <h3 className="text-xl font-bold text-[#F5F5F5] mb-1 group-hover:text-[#C9B037] transition-colors"><Var>{ex.title}</Var></h3>
+                  <p className="text-sm text-[#C9B037] mb-3"><Var>{ex.subtitle}</Var></p>
+                  <p className="text-sm text-[#999] mb-4 line-clamp-2"><Var>{ex.description}</Var></p>
                   <p className="text-xs text-[#666]">
                     <DateTime>{new Date(ex.startDate)}</DateTime> — <DateTime>{new Date(ex.endDate)}</DateTime>
                   </p>
@@ -71,11 +71,11 @@ export default function HomePage() {
           <div>
             <T>
               <p className="text-sm text-[#C9B037] font-medium mb-2">Featured Artwork</p>
-              <h2 className="text-2xl font-bold text-[#F5F5F5] mb-2">{featuredArtwork.title}</h2>
-              <p className="text-sm text-[#AAA] mb-1">{featuredArtwork.artist}, <Num>{featuredArtwork.year}</Num></p>
-              <p className="text-[#999] mb-3 line-clamp-3">{featuredArtwork.description}</p>
+              <h2 className="text-2xl font-bold text-[#F5F5F5] mb-2"><Var>{featuredArtwork.title}</Var></h2>
+              <p className="text-sm text-[#AAA] mb-1"><Var>{featuredArtwork.artist}</Var>, <Num>{featuredArtwork.year}</Num></p>
+              <p className="text-[#999] mb-3 line-clamp-3"><Var>{featuredArtwork.description}</Var></p>
               <p className="text-xs text-[#666]">
-                <Num>{featuredArtwork.dimensions.width}</Num> x <Num>{featuredArtwork.dimensions.height}</Num> {featuredArtwork.dimensions.unit}
+                <Num>{featuredArtwork.dimensions.width}</Num> x <Num>{featuredArtwork.dimensions.height}</Num> <Var>{featuredArtwork.dimensions.unit}</Var>
               </p>
             </T>
             <Link href={`/collection/${featuredArtwork.id}`} className="inline-block mt-4 text-sm text-[#C9B037] hover:underline">
